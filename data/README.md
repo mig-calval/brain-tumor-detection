@@ -1,3 +1,7 @@
+The following is the original README file from the data source:
+
+### Cheng, Jun (2017): brain tumor dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.1512427.v5 
+
 This brain tumor dataset containing 3064 T1-weighted contrast-inhanced images
 from 233 patients with three kinds of brain tumor: meningioma (708 slices), 
 glioma (1426 slices), and pituitary tumor (930 slices). Due to the file size
@@ -31,4 +35,3 @@ Jun Cheng
 School of Biomedical Engineering
 Southern Medical University, Guangzhou, China
 Email: chengjun583@qq.com
-
