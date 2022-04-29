@@ -10,7 +10,7 @@ def translate_label(x):
         x: Numeric value for tumor
   
     Returns:
-        x_translated: Text translation of tumor category
+        Text translation of tumor category or the number if it does not match a category
     '''
     if x == 1:
         return 'meningioma'
@@ -19,7 +19,7 @@ def translate_label(x):
     elif x == 3:
         return 'pituituary'
     else:
-        return x_translated
+        return x
     
 def imx_preproc(imx, zero_up_to_one=False, resize=None):
     '''
