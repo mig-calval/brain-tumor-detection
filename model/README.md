@@ -4,7 +4,7 @@ Implementation of a Convolutional Neural Network to brain tumor RMI classificati
 
 The propossed model layers are (**Modify with the final model**): 
 
-Conv2D + MaxPool2D + Conv2D + MaxPool2D  +Conv2D + MaxPool2D + Dense  + Dense (activación = softmax)
+Conv2D + MaxPool2D + Conv2D + MaxPool2D  +Conv2D + MaxPool2D + Dense  + Dense (softmax activation)
 
 Hyper-parameters to explore:
 
