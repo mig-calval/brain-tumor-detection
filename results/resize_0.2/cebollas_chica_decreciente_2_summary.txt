@@ -1,0 +1,35 @@
+Model: "sequential_24"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_127 (Conv2D)         (None, 100, 100, 128)     1280      
+                                                                 
+ max_pooling2d_114 (MaxPooli  (None, 50, 50, 128)      0         
+ ng2D)                                                           
+                                                                 
+ conv2d_128 (Conv2D)         (None, 48, 48, 64)        73792     
+                                                                 
+ max_pooling2d_115 (MaxPooli  (None, 24, 24, 64)       0         
+ ng2D)                                                           
+                                                                 
+ conv2d_129 (Conv2D)         (None, 22, 22, 32)        18464     
+                                                                 
+ max_pooling2d_116 (MaxPooli  (None, 11, 11, 32)       0         
+ ng2D)                                                           
+                                                                 
+ conv2d_130 (Conv2D)         (None, 9, 9, 16)          4624      
+                                                                 
+ max_pooling2d_117 (MaxPooli  (None, 4, 4, 16)         0         
+ ng2D)                                                           
+                                                                 
+ flatten_24 (Flatten)        (None, 256)               0         
+                                                                 
+ dense_48 (Dense)            (None, 512)               131584    
+                                                                 
+ dense_49 (Dense)            (None, 3)                 1539      
+                                                                 
+=================================================================
+Total params: 231,283
+Trainable params: 231,283
+Non-trainable params: 0
+_________________________________________________________________
