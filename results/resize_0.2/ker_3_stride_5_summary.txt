@@ -1,0 +1,25 @@
+Model: "sequential_49"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_151 (Conv2D)         (None, 20, 20, 64)        640       
+                                                                 
+ max_pooling2d_151 (MaxPooli  (None, 10, 10, 64)       0         
+ ng2D)                                                           
+                                                                 
+ conv2d_152 (Conv2D)         (None, 8, 8, 64)          36928     
+                                                                 
+ max_pooling2d_152 (MaxPooli  (None, 4, 4, 64)         0         
+ ng2D)                                                           
+                                                                 
+ flatten_49 (Flatten)        (None, 1024)              0         
+                                                                 
+ dense_98 (Dense)            (None, 512)               524800    
+                                                                 
+ dense_99 (Dense)            (None, 3)                 1539      
+                                                                 
+=================================================================
+Total params: 563,907
+Trainable params: 563,907
+Non-trainable params: 0
+_________________________________________________________________

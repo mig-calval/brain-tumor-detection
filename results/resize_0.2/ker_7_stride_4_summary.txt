@@ -1,0 +1,25 @@
+Model: "sequential_45"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_143 (Conv2D)         (None, 24, 24, 64)        3200      
+                                                                 
+ max_pooling2d_143 (MaxPooli  (None, 12, 12, 64)       0         
+ ng2D)                                                           
+                                                                 
+ conv2d_144 (Conv2D)         (None, 6, 6, 64)          200768    
+                                                                 
+ max_pooling2d_144 (MaxPooli  (None, 3, 3, 64)         0         
+ ng2D)                                                           
+                                                                 
+ flatten_45 (Flatten)        (None, 576)               0         
+                                                                 
+ dense_90 (Dense)            (None, 512)               295424    
+                                                                 
+ dense_91 (Dense)            (None, 3)                 1539      
+                                                                 
+=================================================================
+Total params: 500,931
+Trainable params: 500,931
+Non-trainable params: 0
+_________________________________________________________________

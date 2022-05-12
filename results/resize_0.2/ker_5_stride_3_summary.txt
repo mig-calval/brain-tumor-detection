@@ -1,0 +1,25 @@
+Model: "sequential_38"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_128 (Conv2D)         (None, 33, 33, 64)        1664      
+                                                                 
+ max_pooling2d_128 (MaxPooli  (None, 16, 16, 64)       0         
+ ng2D)                                                           
+                                                                 
+ conv2d_129 (Conv2D)         (None, 4, 4, 64)          102464    
+                                                                 
+ max_pooling2d_129 (MaxPooli  (None, 2, 2, 64)         0         
+ ng2D)                                                           
+                                                                 
+ flatten_38 (Flatten)        (None, 256)               0         
+                                                                 
+ dense_76 (Dense)            (None, 512)               131584    
+                                                                 
+ dense_77 (Dense)            (None, 3)                 1539      
+                                                                 
+=================================================================
+Total params: 237,251
+Trainable params: 237,251
+Non-trainable params: 0
+_________________________________________________________________
