@@ -20,7 +20,7 @@ def translate_label(x):
         return 'pituituary'
     else:
         return x
-    
+
 def imx_preproc(imx, zero_up_to_one=False, resize=None):
     '''
     Function that preprocess images to put them in the same size and scale pixel values. 
