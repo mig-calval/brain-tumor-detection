@@ -1,0 +1,42 @@
+Model: "sequential_9"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_49 (Conv2D)          (None, 100, 100, 128)     1280      
+                                                                 
+ max_pooling2d_40 (MaxPoolin  (None, 50, 50, 128)      0         
+ g2D)                                                            
+                                                                 
+ conv2d_50 (Conv2D)          (None, 48, 48, 128)       147584    
+                                                                 
+ max_pooling2d_41 (MaxPoolin  (None, 24, 24, 128)      0         
+ g2D)                                                            
+                                                                 
+ conv2d_51 (Conv2D)          (None, 22, 22, 128)       147584    
+                                                                 
+ conv2d_52 (Conv2D)          (None, 20, 20, 128)       147584    
+                                                                 
+ max_pooling2d_42 (MaxPoolin  (None, 10, 10, 128)      0         
+ g2D)                                                            
+                                                                 
+ conv2d_53 (Conv2D)          (None, 8, 8, 128)         147584    
+                                                                 
+ max_pooling2d_43 (MaxPoolin  (None, 4, 4, 128)        0         
+ g2D)                                                            
+                                                                 
+ flatten_10 (Flatten)        (None, 2048)              0         
+                                                                 
+ dense_19 (Dense)            (None, 512)               1049088   
+                                                                 
+ dense_20 (Dense)            (None, 10404)             5337252   
+                                                                 
+ reshape_9 (Reshape)         (None, 102, 102, 1)       0         
+                                                                 
+ conv2d_transpose_9 (Conv2DT  (None, 102, 102, 1)      10        
+ ranspose)                                                       
+                                                                 
+=================================================================
+Total params: 6,977,966
+Trainable params: 6,977,966
+Non-trainable params: 0
+_________________________________________________________________
